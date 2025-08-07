@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+    <script>
+        //Declaring a class
+        class employee
+        {
+
+      // creating constructor
+        constructor(name,id)
+        {
+            this.name = name;
+            this.id = id;
+
+        }
+    
+        //Declaring method
+        display()
+        {
+            document.write(this.name+" "+this.id+"<br>");
+        }
+        //Declaring object of class
+        let e1 = new employee("john",101);
+        let e2 = new employee("ram",102);
+
+        //calling method
+        e1.display();
+        e2.display();
+}
+    </script>
+</body>
+</html>
